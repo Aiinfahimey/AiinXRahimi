@@ -2,7 +2,7 @@
 //javascript sections
 
   //timer countdown
-  var wedding = new Date("Dec 23, 2023 11:30:00").getTime();
+  var wedding = new Date("Jan 25, 2025 9:00:00").getTime();
   
   // countdown
   let timer = setInterval(function() {
