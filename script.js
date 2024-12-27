@@ -79,10 +79,10 @@
   const swishElements = document.querySelectorAll('.swish');
   swishElements.forEach((el) => observer.observe(el));
 
-  //music autoplay
-//   var audio = document.getElementById("music");
-//   audio.autoplay = true;
-//   audio.load();
+//music autoplay
+  var audio = document.getElementById("music");
+  audio.autoplay = true;
+  audio.load();
 
 //from submit
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwut4fA1eFf0OHijmhBJ9DjnKszaONBZpKLHs-tEJVbZcnaVOoeS3l0fm4JnljXVmI/exec'
