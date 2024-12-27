@@ -83,3 +83,18 @@
 //   var audio = document.getElementById("music");
 //   audio.autoplay = true;
 //   audio.load();
+
+//from submit
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwut4fA1eFf0OHijmhBJ9DjnKszaONBZpKLHs-tEJVbZcnaVOoeS3l0fm4JnljXVmI/exec'
+
+const form = document.forms['wishes-form']
+
+form.addEventListener('submit', e => {
+  
+  e.preventDefault()
+  
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Form is submitted" ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})

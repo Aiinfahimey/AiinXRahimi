@@ -146,6 +146,30 @@ th {
   border-bottom: 2px solid black;
 }
 
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+textarea{
+	width: 100%;
+	padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#submit{
+	border: none;
+	background-color: #d2b48c;
+	color: black;
+	width: 200px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit:hover{
+	background-color: #333333;
+}
 
 
 .w3-wide {font-family: Cinzel, serif; letter-spacing: 10px;}
@@ -165,7 +189,7 @@ th {
     background-image: url('image/border_1.jpg');
     background-repeat: no-repeat;
     background-position: center center; 
-    background-size: 100vw 100vh;
+    background-size: 105vw 105vh;
     width: 102vw; 
     height: 102vh; 
     position: fixed; 
