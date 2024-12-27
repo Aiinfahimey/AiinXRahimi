@@ -236,27 +236,27 @@ textarea{
   }
 
   #timer {
-    color: white;
+    color: black;
     text-align: center;
     text-transform: uppercase;
     font-family: lato, serif;
-    font-size: .6em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: .7em;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .days, .hours, .minutes, .seconds {
     display: inline-block;
     padding: 5px;
-    width: 70px;
-    border-radius: 10px;
-    background: blueviolet;
+    width: 60px;
+    border-radius: 15px;
+    background: #d2b48c;
   }
 
   .numbers {
     font-family: Cinzel, serif;
-    color: white;
-    font-size: 3.0em;
+    color: black;
+    font-size: 2.5em;
     text-align: center;
   }
 }
