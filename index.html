@@ -17,6 +17,7 @@
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#majlis" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calendar"></i> MAJLIS</a>
+    <a href="#rsvp" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RSVP</a>
     <a href="#itinerary" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> ATURCARA</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> INFO</a>
   </div>
@@ -24,6 +25,7 @@
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#majlis" class="w3-bar-item w3-button" onclick="toggleFunction()">MAJLIS</a>
+    <a href="#rsvp" class="w3-bar-item w3-button" onclick="toggleFunction()">RSVP</a>
     <a href="#itinerary" class="w3-bar-item w3-button" onclick="toggleFunction()">ATURCARA</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">INFO</a>
   </div>
@@ -81,11 +83,14 @@
   </div>
 </div>
 
-<div class="w3-center">
-  <div class="w3-text-black w3-wide w3-white" style="padding: 1pc; margin-bottom: 5pc;">
+<div id="rsvp" class="w3-center" style="padding-top: 2pc; padding-bottom: 5pc; margin: 3pc;">
+  <h5>Anda digalakkan untuk sahkan kehadiran melalui butang RSVP di bawah</h5>
+  <div class="w3-text-black w3-wide" style="padding: 1pc; margin-bottom: 5pc;">
+    <img src="image/line.png">
     <a href="https://aliveinvite.com/cards/aiinxrahimi/rsvp_lists/new">
       <img src="image/rsvp.jpg" width="100" alt="">
     </a>
+    <img src="image/line.png" style="transform: scaleY(-1);">
   </div>
 </div>
 
@@ -189,8 +194,7 @@
     <form method="post" name="wishes-form">
       <h4 class="cursive">Ucapan Buat Pasangan</h4>
       <input type="text" name="name" placeholder="Nama">
-      <textarea name="message" rows="7" placeholder="Your Message">
-      </textarea>
+      <textarea name="message" rows="7"></textarea>
       <input type="submit" value="Submit" id="submit">
 		</form>
 	</div>

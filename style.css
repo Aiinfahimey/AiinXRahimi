@@ -92,19 +92,21 @@ div {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url(image/main.png);
-  min-height: 400px;
+  background-image: url(image/line.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url(image/main.png);
+  background-image: url(image/line.png);
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url(image/main.png);
+  background-image: url(image/line.png);
   min-height: 400px;
 }
 
@@ -168,7 +170,7 @@ textarea{
 	border-radius: 5px;
 }
 #submit:hover{
-	background-color: #333333;
+	background-color: whitesmoke;
 }
 
 
@@ -180,7 +182,7 @@ textarea{
 @media only screen and (max-device-width: 1200px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    max-height: 100px;
   }
 }
 
@@ -200,7 +202,7 @@ textarea{
 
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    max-height: 100px;
   }
 
   #timer {
@@ -232,7 +234,7 @@ textarea{
 @media only screen and (max-device-width: 370px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    max-height: 400px;
   }
 
   #timer {
